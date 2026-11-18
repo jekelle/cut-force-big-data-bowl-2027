@@ -1,0 +1,9 @@
+# competition data (not redistributable) and large derived files
+data/
+*.csv
+!analysis/**/*.json
+*.rds
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

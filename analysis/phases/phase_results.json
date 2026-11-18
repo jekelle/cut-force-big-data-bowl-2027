@@ -1,0 +1,152 @@
+{
+ "decel": {
+  "label": "Deceleration into the break",
+  "combine_rel": 0.31,
+  "game_rel": 0.69,
+  "transfer_r": -0.07,
+  "transfer_p": 0.539,
+  "n": 82,
+  "combine_mean": 0.143,
+  "game_mean": 0.099,
+  "r_forty": 0.08,
+  "r_ten_yd_split": -0.06,
+  "r_three_cone": 0.4,
+  "r_short_shuttle": 0.12,
+  "r_combine_weight": 0.09,
+  "r_lpick": 0.02,
+  "sep_b": -0.021,
+  "sep_p": 0.241,
+  "sep_n": 82,
+  "gsep_b": 0.019,
+  "gsep_p": 0.284,
+  "gsep_n": 82,
+  "tgt_or": 0.937,
+  "tgt_lo": 0.807,
+  "tgt_hi": 1.087,
+  "tgt_p": 0.388
+ },
+ "cut": {
+  "label": "Cut Force (at the break)",
+  "combine_rel": 0.59,
+  "game_rel": 0.43,
+  "transfer_r": 0.23,
+  "transfer_p": 0.041,
+  "n": 82,
+  "combine_mean": 0.585,
+  "game_mean": 0.373,
+  "r_forty": 0.06,
+  "r_ten_yd_split": -0.02,
+  "r_three_cone": -0.06,
+  "r_short_shuttle": -0.06,
+  "r_combine_weight": -0.13,
+  "r_lpick": -0.11,
+  "sep_b": -0.03,
+  "sep_p": 0.086,
+  "sep_n": 82,
+  "gsep_b": -0.003,
+  "gsep_p": 0.862,
+  "gsep_n": 82,
+  "tgt_or": 1.133,
+  "tgt_lo": 0.993,
+  "tgt_hi": 1.294,
+  "tgt_p": 0.064
+ },
+ "accel": {
+  "label": "Acceleration out of the break",
+  "combine_rel": -0.01,
+  "game_rel": 0.71,
+  "transfer_r": -0.04,
+  "transfer_p": 0.751,
+  "n": 82,
+  "combine_mean": 0.172,
+  "game_mean": 0.12,
+  "r_forty": -0.06,
+  "r_ten_yd_split": -0.07,
+  "r_three_cone": 0.1,
+  "r_short_shuttle": 0.24,
+  "r_combine_weight": -0.07,
+  "r_lpick": 0.1,
+  "sep_b": -0.007,
+  "sep_p": 0.699,
+  "sep_n": 82,
+  "gsep_b": -0.008,
+  "gsep_p": 0.649,
+  "gsep_n": 82,
+  "tgt_or": 1.055,
+  "tgt_lo": 0.953,
+  "tgt_hi": 1.168,
+  "tgt_p": 0.301
+ },
+ "kept": {
+  "label": "Speed kept through the break",
+  "combine_rel": 0.01,
+  "game_rel": 0.43,
+  "transfer_r": 0.05,
+  "transfer_p": 0.664,
+  "n": 82,
+  "combine_mean": 0.844,
+  "game_mean": 0.84,
+  "r_forty": 0.03,
+  "r_ten_yd_split": 0.03,
+  "r_three_cone": -0.33,
+  "r_short_shuttle": 0.05,
+  "r_combine_weight": -0.08,
+  "r_lpick": -0.06,
+  "sep_b": 0.014,
+  "sep_p": 0.419,
+  "sep_n": 82,
+  "gsep_b": -0.02,
+  "gsep_p": 0.269,
+  "gsep_n": 82,
+  "tgt_or": 1.074,
+  "tgt_lo": 0.94,
+  "tgt_hi": 1.227,
+  "tgt_p": 0.293
+ },
+ "corr_combine": {
+  "decel_cz": {
+   "decel_cz": 1.0,
+   "cut_cz": 0.32,
+   "accel_cz": 0.36,
+   "kept_cz": -0.78
+  },
+  "cut_cz": {
+   "decel_cz": 0.32,
+   "cut_cz": 1.0,
+   "accel_cz": 0.32,
+   "kept_cz": -0.09
+  },
+  "accel_cz": {
+   "decel_cz": 0.36,
+   "cut_cz": 0.32,
+   "accel_cz": 1.0,
+   "kept_cz": -0.39
+  },
+  "kept_cz": {
+   "decel_cz": -0.78,
+   "cut_cz": -0.09,
+   "accel_cz": -0.39,
+   "kept_cz": 1.0
+  }
+ },
+ "routes": 34889,
+ "receivers": 82,
+ "joint": {
+  "decel": {
+   "or_": 0.873,
+   "p": 0.136
+  },
+  "cut": {
+   "or_": 1.149,
+   "p": 0.016
+  },
+  "accel": {
+   "or_": 1.034,
+   "p": 0.413
+  },
+  "kept": {
+   "or_": 0.977,
+   "p": 0.674
+  }
+ }
+}
