@@ -28,7 +28,7 @@ Deceleration into the break, acceleration out of it, and speed kept through it w
 ## What is in this repo
 
 ```
-notebook/    cut_force_bdb2027.ipynb      the Kaggle notebook (Version 23), organized by the seven Big Data Bowl sections
+notebook/    cut_force_bdb2027.ipynb      the Kaggle notebook (Version 24), organized by the seven Big Data Bowl sections
 writeup/     writeup.md + figures/        the competition writeup, figures as submitted
 analysis/    *.py, json                   the working scripts behind each section (alignment, features, Bayesian model,
                                           sensitivity, break phases, defensive backs, load, interactive figure builds)

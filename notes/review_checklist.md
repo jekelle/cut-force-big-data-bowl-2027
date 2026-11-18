@@ -87,3 +87,5 @@ Status as of Wed Oct 14 (writeup v-Oct14 pushed): SUBMITTED, Open Track, editabl
 - Nov 18: one-page Professional Summary for Phase III (optional 5 pts): Kelley_PhaseIII_CutForce_Summary.pdf in School/TESM 501 Master/Phase 1-3 Project/Phase III/. Numbers from writeup.md (Version 20/21 audit).
 - Phase III Canvas: due Fri Dec 11, 2026 5pm, 75 pts, submission types Text / Web URL / Upload, unlimited attempts. Plan: Upload the summary PDF and paste the public notebook URL in the comment. Individual work, so no contribution narrative.
 - OPEN: confirm Version 22 ran clean (13 charts, no tracebacks) and the public page shows "Version 22 of 22" with the new section headers.
+
+- Nov 18: Version 23 (plain-language axis labels and legends) and Version 24 (inline figures at 220 dpi) ran clean. Figures 2, 3 and 4 in writeup/figures are the Version 24 renders.
