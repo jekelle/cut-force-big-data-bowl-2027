@@ -1,6 +1,6 @@
 import numpy as np, pandas as pd, statsmodels.api as sm, statsmodels.formula.api as smf, json
 from scipy import stats
-D = '/home/claude/bdb3/data'; OUT = '/home/claude/bdb3/out'; SEED = 2027
+D = 'data'; OUT = 'out'; SEED = 2027
 METRICS = ['decel', 'cut', 'accel', 'kept']
 LAB = {'decel': 'Deceleration into the break', 'cut': 'Cut Force (at the break)', 'accel': 'Acceleration out of the break', 'kept': 'Speed kept through the break'}
 players = pd.read_csv(f'{D}/players.csv'); cr = pd.read_csv(f'{D}/combine_results.csv').drop_duplicates('nfl_id')

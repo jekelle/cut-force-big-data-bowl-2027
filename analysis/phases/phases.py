@@ -2,7 +2,7 @@
 Same rep windows, smoothing and peak rule as the notebook. Writes phase tables and prints the comparison."""
 import glob, os, sys, numpy as np, pandas as pd, statsmodels.api as sm, statsmodels.formula.api as smf
 from scipy import stats
-D = '/home/claude/bdb3/data'; OUT = '/home/claude/bdb3/out'; os.makedirs(OUT, exist_ok=True)
+D = 'data'; OUT = 'out'; os.makedirs(OUT, exist_ok=True)
 G = 9.80665 / 0.9144; SEED = 2027
 def smooth(x, k=3): return pd.Series(x).rolling(k, center=True, min_periods=1).mean().to_numpy()
 

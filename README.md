@@ -28,13 +28,11 @@ Deceleration into the break, acceleration out of it, and speed kept through it w
 ## What is in this repo
 
 ```
-notebook/    cut_force_bdb2027.ipynb      the Kaggle notebook (Version 24), organized by the seven Big Data Bowl sections
+notebook/    cut_force_bdb2027.ipynb      the Kaggle notebook (Version 25), organized by the seven Big Data Bowl sections
 writeup/     writeup.md + figures/        the competition writeup, figures as submitted
 analysis/    *.py, json                   the working scripts behind each section (alignment, features, Bayesian model,
                                           sensitivity, break phases, defensive backs, load, interactive figure builds)
 docs/        PDFs, companion.html          one-page summary, research brief, review copy of the writeup, companion page
-notes/       working_log.md, review_checklist.md   chronological working notes and the audit trail, numbers in these
-                                          are historical; the writeup and notebook carry the final ones
 ```
 
 ## Reproducing it
@@ -44,6 +42,10 @@ The notebook runs on Kaggle with the competition dataset attached (about 17 to 2
 **The competition data is not in this repo.** It is the NFL's and Kaggle's and cannot be redistributed. Join the competition and attach the dataset: https://www.kaggle.com/competitions/nfl-big-data-bowl-2027
 
 The scripts in `analysis/` were run locally on the same files and expect them under a `data/` folder next to `analysis/`. They are kept for the record; the notebook is the reproducible path.
+
+## Validation, and what is still open
+
+The check so far is leave-one-draft-class-out (notebook sections 8b and 15, Appendix H in the writeup). The held-out residuals track Cut Force only in the 2023 class, the one with three NFL seasons, and not yet in 2024 or 2025. So Cut Force is a measured trait with a positive link to targets, not yet a draft-day predictor. The strongest test is the 2026 season as a true holdout for the same 82 receivers, and the notebook is built to run it unchanged once that data arrives. After that: a practice-GPS trial with one position group, separation as the outcome once defender tracking covers full rosters, and tight end and running back versions.
 
 ## Method in one paragraph
 

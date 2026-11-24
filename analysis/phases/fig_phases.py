@@ -1,6 +1,6 @@
 import json, numpy as np, matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
-R = json.load(open('/home/claude/bdb3/out/phase_results.json'))
+R = json.load(open('out/phase_results.json'))
 NAVY, GOLD, GRAY = '#13294B', '#B08400', '#6B7280'
 plt.rcParams.update({'font.size': 13, 'savefig.dpi': 220, 'axes.titleweight': 'bold', 'axes.titlelocation': 'left', 'axes.titlesize': 15})
 rows = [('decel', 'Deceleration into the break'), ('cut', 'Cut Force (at the break)'), ('accel', 'Acceleration out of the break'),
@@ -34,5 +34,5 @@ ax.text(-3.5, 4.75, 'Darker = better. Overlap is shaded so that less overlap wit
         'Separation is regressed on each Combine measure with weight and slot share controlled (DB row: man-coverage matchups, route and snap distance controlled).',
         fontsize=10.5, color=GRAY, ha='left', va='top')
 fig.subplots_adjust(left=0.27, right=0.99, top=0.80, bottom=0.12)
-fig.savefig('/home/claude/bdb3/out/fig2_phases.png', bbox_inches='tight')
+fig.savefig('out/fig2_phases.png', bbox_inches='tight')
 print('saved')
