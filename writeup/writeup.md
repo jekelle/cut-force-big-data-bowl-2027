@@ -106,13 +106,13 @@ The sample is 107 receivers, and 82 of them ran regular-season routes. The game 
 
 Two extensions did not hold. Defensive line drill speed mostly repeats the 40 (Appendix C), and Cut Force does not transfer to defensive backs, whose turns follow the receiver (Figure 3, Appendix E). The 2023 to 2025 receivers were also faster and more explosive than earlier classes (Appendix G).
 
-Independent validation so far is the leave-one-draft-class-out test in Appendix H. The held-out residuals track Cut Force only in the 2023 class, the one with three NFL seasons, and not yet in 2024 or 2025. The strongest test is the 2026 season as a true holdout for the same 82 receivers, and the notebook is built to run it unchanged once that data arrives.
+Independent validation so far is the leave-one-class-out test in Appendix H, which holds only in the 2023 class, the one with three NFL seasons. The true test is the 2026 season as a holdout, and the notebook runs it unchanged once that data arrives.
 
 ## 10. Conclusion
 
 The Combine already records how hard a receiver can turn at speed, but it has never reported that number. Cut Force turns those frames into one score that is moderately reliable, independent of the stopwatch, and visible again in NFL routes, unlike braking or burst. Its link to targets is positive but leans on the best example. More NFL seasons will show how much it predicts.
 
-*Code: [Kaggle notebook](https://www.kaggle.com/code/jaykelley/cut-force-the-combine-trait-the-stopwatch-misses) and [GitHub repository](https://github.com/jekelle/cut-force-big-data-bowl-2027), both public. Every figure has an interactive version in the notebook (Sections 16 to 20), including a Cut Force card and a break replay for all 107 receivers.*
+*Code, public: [Kaggle notebook](https://www.kaggle.com/code/jaykelley/cut-force-the-combine-trait-the-stopwatch-misses) and [GitHub](https://github.com/jekelle/cut-force-big-data-bowl-2027). The notebook (Sections 16 to 20) has interactive figures, a Cut Force card, and a break replay for all 107 receivers.*
 
 ## Appendix A: Sensitivity to the Break Definition
 
